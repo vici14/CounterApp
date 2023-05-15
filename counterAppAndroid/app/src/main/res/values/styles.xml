@@ -1,0 +1,25 @@
+
+<resources>
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">#FF9800</item>
+        <item name="colorPrimaryDark">#FB8C00</item>
+        <item name="colorButtonNormal">#FF9800</item>
+    </style>
+
+    <style name="CounterAppTheme" parent="Base.Theme.AppCompat.Light">
+        <item name="colorPrimary">#FF9800</item>
+        <item name="colorPrimaryDark">#FB8C00</item>
+        <item name="colorButtonNormal">#FF9800</item>
+    </style>
+
+<!--    <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">-->
+<!--        <item name="android:windowBackground">@drawable/ic_launcher_background</item>-->
+<!--    </style>-->
+    <style name="SplashScreen" parent="Theme.MaterialComponents.Light.NoActionBar">
+         <item name="android:statusBarColor">@color/white</item>
+    </style>
+
+</resources>

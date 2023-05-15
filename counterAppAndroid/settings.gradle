@@ -1,0 +1,15 @@
+
+rootProject.name = "Counter App"
+
+include ':app'
+setBinding(new Binding([gradle: this]))
+evaluate(new File(
+        settingsDir.parentFile,
+        '/counterAppFlutter/.android/include_flutter.groovy'
+))
+
+include ':counterAppFlutter'
+project(':counterAppFlutter').projectDir = new File('../counterAppFlutter')
+
+
+
